@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Sec</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-roboto">
+  <!-- Hero section and navbar starts here -->
+  <section class="h-screen bg-gradient-to-b from-[#081834] via-[#112244] to-[#223366] relative">
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img src="assets/hero3.png" alt="Background" class="w-full h-full object-cover opacity-80 mix-blend-overlay">
+    </div>
+  
+    <!-- Navbar Starts Here -->
+    <div class="relative z-10">
+      <div class="w-full sm:px-6">
+        <div class="relative pt-3 pb-2">
+          <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
+            <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+              <div class="flex items-center justify-between w-full md:w-auto">
+                <a href="./home.html">
+                  <div class="w-auto h-8 sm:h-10">
+                    <img class="w-auto h-8 sm:h-10" src="assets/logo.png" loading="lazy" width="202" height="40">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="md:flex md:space-x-10 list-none">
+              <li>
+                <a href="./home.html" class="text-base font-normal text-white list-none hover:underline"
+                  target="_self">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-base font-normal text-white list-none text-decoration underline"
+                  target="_self">Events</a>
+              </li>
+              <li>
+                <a href="#" class="text-base font-normal text-white list-none hover:underline">Contact Us</a>
+              </li>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar Ends Here -->
+  
+    <!-- Centered Content Section -->
+    <div class="h-full flex items-center justify-center relative z-10">
+      <div class="text-center text-white">
+        <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold leading-relaxed">
+          Advanced & Persistent Cyber Threat & its Mitigation Strategies
+        </h2>
+        <button
+          class="mt-6 px-8 py-3 text-base font-medium rounded-xl bg-orange-700 text-white hover:bg-gray-700 focus:ring-4 focus:ring-gray-800">
+          Apply Now
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- hero sec and navbar ends here -->
+  
+
+  <!-- Card Section Starts here -->
+  <div>
+    <!-- CARDS SECTION -->
+
+    <div class="h-auto pb-20 bg-white">
+      <div class="py-20 lg:px-36">
+        <!-- Heading -->
+        <h1 class="text-center text-4xl font-bold text-black underline decoration-solid">
+          Cyber Attacks
+        </h1>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pr-6 md:px-[5rem] md:px-30 gap-10">
+        <!-- Card 1 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden"
+          onclick="openModal('card-1-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/digital arrest.png" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Digital Arrest</h3>
+              <p class="text-sm text-gray-600">
+                Digital arrest is a sophisticated scam where fraudsters
+                impersonate law enforcement officials or other government
+                authorities to extort money from unsuspecting victims.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 2 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden "
+          onclick="openModal('modal1')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/human-trafficing.webp" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Human Trafficking</h3>
+              <p class="text-sm text-gray-600">
+                Human trafficking is the illegal trade of people for forced
+                labor, sexual exploitation, or other forms of exploitation. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 3 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/phishing.png" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Phishing Attack</h3>
+              <p class="text-sm text-gray-600">
+                Phishing is a cyberattack where attackers impersonate
+                legitimate entities to trick individuals into revealing
+                sensitive information like passwords or credit card details.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 4 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/cyber bullying.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Cyber Bullying</h3>
+              <p class="text-sm text-gray-600">
+                Cyberbullying is the use of electronic communication to bully
+                a person, typically by sending messages of an intimidating or
+                threatening nature.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 5 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/sticky key attack.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Sticky Key Attack</h3>
+              <p class="text-sm text-gray-600">
+                A sticky key attack replaces the Sticky Keys executable with a
+                malicious file (like cmd.exe). This allows attackers to gain
+                administrative access by pressing Shift five times, even
+                before login.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 6 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/Deep Fake.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Deep Fake</h3>
+              <p class="text-sm text-gray-600">
+                Deepfakes are hyperrealistic AI-generated videos or images
+                that can convincingly depict real people saying or doing
+                things they never did.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 7 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/Dark Web.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Dark Web</h3>
+              <p class="text-sm text-gray-600">
+                The dark web is a hidden part of the internet accessible only
+                through specific browsers. It's known for both legitimate uses
+                and illegal activities like drug trade, hacking, and data
+                theft.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 8 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/digital-arrest.png" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-opacity duration-500" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Card Title 8</h3>
+              <p class="text-sm text-gray-600">
+                This text jumps up from the bottom when you hover.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 9 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl shadow-md overflow-hidden">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/digital-arrest.png" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-opacity duration-500" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Card Title 9</h3>
+              <p class="text-sm text-gray-600">
+                This text jumps up from the bottom when you hover.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+      </div>
+    </div>
+
+    <!--  -->
+
+    <!-- DATE AND TIME SECTION -->
+
+    <!--  -->
+    <div class="h-auto w-full bg-center bg-cover flex items-center justify-center" style="background-image: url(./Images/Sharda\ Image.png)">
+      <!-- Info -->
+      <div class="p-10 xl:p-20 w-full bg-gray-900 bg-opacity-80">
+        <div class="bg-gray-300 w-full flex flex-row items-start justify-between p-5 rounded-lg shadow-gray-700 shadow-lg">
+          <div class="w-1/2 pr-5">
+            <!-- Venue and date and time -->
+            <h1
+              class="text-4xl font-semibold text-black relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+              Save the Date
+            </h1>
+    
+            <div class="py-6">
+              <span class="text-2xl text-black"> Venue </span>
+              <p class="pt-3 text-xl text-slate-500">
+                Plot No. 32-34, Knowledge Park III, Greater Noida, Uttar Pradesh - 201310
+              </p>
+            </div>
+            <div class="py-6">
+              <span class="text-2xl text-black"> Date & Time </span>
+              <p class="pt-3 text-xl text-slate-500">
+                13-15 December 2024, 10:00 AM - 05:00 PM
+              </p>
+            </div>
+          </div>
+          <div class="w-1/2 rounded-3xl overflow-hidden h-[300px]">
+            <!-- Map -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.124464913367!2d77.4809071515683!3d28.473066800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea0f7b91511b%3A0x486f13bd49e5e7ae!2sSharda%20University!5e1!3m2!1sen!2sin!4v1729950246382!5m2!1sen!2sin"
+              width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  <!-- Modal For Card 1 -->
+  <div id="card-1-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Digital Arrest</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-1-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>
+          Digital arrest is a sophisticated scam where fraudsters impersonate
+          law enforcement officials or other government authorities to extort
+          money from unsuspecting victims. Using a combination of fear and
+          intimidation, these scammers manipulate their targets into believing
+          they are facing serious legal consequences unless they comply with
+          their demands.
+        </p>
+        <br />
+        <h2>How Does it Work?</h2>
+        <ol start="1">
+          <li>
+            <b>Contact: </b>Scammers typically initiate contact through phone
+            calls, text messages, or video calls, often using spoofed numbers
+            or email addresses to appear legitimate.
+          </li>
+          <li>
+            <b>Accusation: </b>The victim is falsely accused of a crime, such
+            as money laundering, drug trafficking, or financial fraud.
+          </li>
+          <li>
+            <b>Intimidation: </b>The scammers use threats of arrest,
+            imprisonment, or legal action to instill fear and urgency in the
+            victim.
+          </li>
+          <li>
+            <b>Demand for Payment: </b>The victim is instructed to pay a
+            certain amount of money to resolve the alleged charges or avoid
+            legal consequences.
+          </li>
+        </ol>
+
+        <br />
+
+        <h2>Common Tactics:</h2>
+        <ul>
+          <li>
+            <b>Creating a sense of urgency: </b>Scammers often emphasize the
+            immediate need for action to avoid arrest or legal repercussions.
+          </li>
+          <li>
+            <b>Using official-sounding language: </b>They may use legal jargon
+            or impersonate high-ranking officials to make their claims seem
+            more credible.
+          </li>
+          <li>
+            <b>Restricting communication: </b>Victims may be instructed to
+            keep the matter confidential or to avoid contacting anyone else.
+          </li>
+        </ul>
+
+        <br />
+
+        <h2>How to Protect Yourself:</h2>
+        <ul>
+          <li>
+            <b>Be cautious of unsolicited calls or messages: </b> If you
+            receive a call or message from an unknown number or email address
+            claiming to be from a law enforcement agency, be skeptical.
+          </li>
+          <li>
+            <b>Do not provide personal or financial information: </b>Never
+            share your personal details or financial information with anyone
+            who you do not know and trust. fraud.
+          </li>
+          <li>
+            <b>Verify the identity of the caller: </b>If you are unsure about
+            the authenticity of a call, hang up and contact the law
+            enforcement agency directly using a verified phone number.
+          </li>
+          <li>
+            <b>Report the scam: </b>If you believe you have been a victim of a
+            digital arrest scam, report it to your local law enforcement
+            agency or the Federal Trade Commission.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Card Section ends here -->
+
+  <!-- Footer starts here -->
+  <div class="bg-gray-800 pt-5">
+    <div class="max-w-screen-lg px-4 sm:px-6 text-white  sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+      <div class="p-5">
+        <h3 class="font-bold text-xl text-white">Centre of Excellence</h3>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-white font-bold">Resources</div>
+        <a class="my-3 block" href="/#">Documentation <span class="text-white text-xs p-1"></span></a><a
+          class="my-3 block" href="/#">Tutorials <span class="text-white text-xs p-1"></span></a><a
+          class="my-3 block" href="/#">Support <span class="text-white text-xs p-1">New</span></a>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-white font-bold">Support</div>
+        <a class="my-3 block" href="/#">Help Center <span class="text-white text-xs p-1"></span></a><a
+          class="my-3 block" href="/#">Privacy Policy <span class="text-white text-xs p-1"></span></a><a
+          class="my-3 block" href="/#">Conditions <span class="text-white text-xs p-1"></span></a>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-white font-bold">Contact us</div>
+        <a class="my-3 block" href="/#">Plot No. 32-34, Knowledge Park III, Greater Noida, Uttar Pradesh 201310
+          <span class="text-white text-xs p-1"></span></a><a class="my-3 block" href="/#">contact@company.com
+          <span class="text-white text-xs p-1"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-800 pt-2">
+    <div class="flex pb-5 px-3 m-auto pt-5 border-t text-white text-sm flex-col
+      max-w-screen-lg items-center">
+      <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+        <a href="/#" class="w-6 mx-1">
+          <svg class="fill-current cursor-pointer text-white hover:text-indigo-600" width="100%" height="100%"
+            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+            <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                  5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+                  -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+                  0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+                  -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+                  0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+                  -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+                  0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+                  -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+                  -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+                  1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+                  -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+                  6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+                  0.771,-0.67 1.054,-1.093Z"></path>
+          </svg>
+        </a>
+        <a href="/#" class="w-6 mx-1">
+          <svg class="fill-current cursor-pointer text-white hover:text-indigo-600" width="100%" height="100%"
+            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+            <path id="Facebook" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                  5.373,-12 12,-12c6.627,0 12,5.373
+                  12,12Zm-11.278,0l1.294,0l0.172,-1.617l-1.466,0l0.002,-0.808c0,-0.422
+                  0.04,-0.648 0.646,-0.648l0.809,0l0,-1.616l-1.295,0c-1.555,0 -2.103,0.784
+                  -2.103,2.102l0,0.97l-0.969,0l0,1.617l0.969,0l0,4.689l1.941,0l0,-4.689Z"></path>
+          </svg>
+        </a>
+        <a href="/#" class="w-6 mx-1">
+          <svg class="fill-current cursor-pointer text-gray-900 hover:text-indigo-600" width="100%" height="100%"
+            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+            <g id="Layer_1">
+              <circle id="Oval" cx="12" cy="12" r="12"></circle>
+              <path id="Shape" d="M19.05,8.362c0,-0.062 0,-0.125 -0.063,-0.187l0,-0.063c-0.187,-0.562
+                     -0.687,-0.937 -1.312,-0.937l0.125,0c0,0 -2.438,-0.375 -5.75,-0.375c-3.25,0
+                     -5.75,0.375 -5.75,0.375l0.125,0c-0.625,0 -1.125,0.375
+                     -1.313,0.937l0,0.063c0,0.062 0,0.125 -0.062,0.187c-0.063,0.625 -0.25,1.938
+                     -0.25,3.438c0,1.5 0.187,2.812 0.25,3.437c0,0.063 0,0.125
+                     0.062,0.188l0,0.062c0.188,0.563 0.688,0.938 1.313,0.938l-0.125,0c0,0
+                     2.437,0.375 5.75,0.375c3.25,0 5.75,-0.375 5.75,-0.375l-0.125,0c0.625,0
+                     1.125,-0.375 1.312,-0.938l0,-0.062c0,-0.063 0,-0.125
+                     0.063,-0.188c0.062,-0.625 0.25,-1.937 0.25,-3.437c0,-1.5 -0.125,-2.813
+                     -0.25,-3.438Zm-4.634,3.927l-3.201,2.315c-0.068,0.068 -0.137,0.068
+                     -0.205,0.068c-0.068,0 -0.136,0 -0.204,-0.068c-0.136,-0.068 -0.204,-0.204
+                     -0.204,-0.34l0,-4.631c0,-0.136 0.068,-0.273 0.204,-0.341c0.136,-0.068
+                     0.272,-0.068 0.409,0l3.201,2.316c0.068,0.068 0.136,0.204
+                     0.136,0.34c0.068,0.136 0,0.273 -0.136,0.341Z" style="fill: rgb(255, 255, 255);"></path>
+            </g>
+          </svg>
+        </a>
+        <a href="/#" class="w-6 mx-1">
+          <svg class="fill-current cursor-pointer text-white hover:text-indigo-600" width="100%" height="100%"
+            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+            <path id="Shape" d="M7.3,0.9c1.5,-0.6 3.1,-0.9 4.7,-0.9c1.6,0 3.2,0.3 4.7,0.9c1.5,0.6 2.8,1.5
+                  3.8,2.6c1,1.1 1.9,2.3 2.6,3.8c0.7,1.5 0.9,3 0.9,4.7c0,1.7 -0.3,3.2
+                  -0.9,4.7c-0.6,1.5 -1.5,2.8 -2.6,3.8c-1.1,1 -2.3,1.9 -3.8,2.6c-1.5,0.7
+                  -3.1,0.9 -4.7,0.9c-1.6,0 -3.2,-0.3 -4.7,-0.9c-1.5,-0.6 -2.8,-1.5
+                  -3.8,-2.6c-1,-1.1 -1.9,-2.3 -2.6,-3.8c-0.7,-1.5 -0.9,-3.1 -0.9,-4.7c0,-1.6
+                  0.3,-3.2 0.9,-4.7c0.6,-1.5 1.5,-2.8 2.6,-3.8c1.1,-1 2.3,-1.9
+                  3.8,-2.6Zm-0.3,7.1c0.6,0 1.1,-0.2 1.5,-0.5c0.4,-0.3 0.5,-0.8 0.5,-1.3c0,-0.5
+                  -0.2,-0.9 -0.6,-1.2c-0.4,-0.3 -0.8,-0.5 -1.4,-0.5c-0.6,0 -1.1,0.2
+                  -1.4,0.5c-0.3,0.3 -0.6,0.7 -0.6,1.2c0,0.5 0.2,0.9 0.5,1.3c0.3,0.4 0.9,0.5
+                  1.5,0.5Zm1.5,10l0,-8.5l-3,0l0,8.5l3,0Zm11,0l0,-4.5c0,-1.4 -0.3,-2.5
+                  -0.9,-3.3c-0.6,-0.8 -1.5,-1.2 -2.6,-1.2c-0.6,0 -1.1,0.2 -1.5,0.5c-0.4,0.3
+                  -0.8,0.8 -0.9,1.3l-0.1,-1.3l-3,0l0.1,2l0,6.5l3,0l0,-4.5c0,-0.6 0.1,-1.1
+                  0.4,-1.5c0.3,-0.4 0.6,-0.5 1.1,-0.5c0.5,0 0.9,0.2 1.1,0.5c0.2,0.3 0.4,0.8
+                  0.4,1.5l0,4.5l2.9,0Z"></path>
+          </svg>
+        </a>
+        <a href="/#" class="w-6 mx-1">
+          <svg class="fill-current cursor-pointer text-white hover:text-indigo-600" width="100%" height="100%"
+            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+            <path id="Combined-Shape" d="M12,24c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12c-6.627,0
+                  -12,5.373 -12,12c0,6.627 5.373,12 12,12Zm6.591,-15.556l-0.722,0c-0.189,0
+                  -0.681,0.208 -0.681,0.385l0,6.422c0,0.178 0.492,0.323
+                  0.681,0.323l0.722,0l0,1.426l-4.675,0l0,-1.426l0.935,0l0,-6.655l-0.163,0l-2.251,8.081l-1.742,0l-2.222,-8.081l-0.168,0l0,6.655l0.935,0l0,1.426l-3.74,0l0,-1.426l0.519,0c0.203,0
+                  0.416,-0.145 0.416,-0.323l0,-6.422c0,-0.177 -0.213,-0.385
+                  -0.416,-0.385l-0.519,0l0,-1.426l4.847,0l1.583,5.704l0.042,0l1.598,-5.704l5.021,0l0,1.426Z"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="my-5 text-white">© Copyright 2020. All Rights Reserved.</div>
+    </div>
+  </div>
+
+  <!-- Footer ends here -->
+  <script src="event.js"></script>
+
+</body>
+
+</html>
